@@ -19,7 +19,7 @@ const HeroSection = () => {
                             <h2 className='ff_Gilroy700 font_lg text_white'>for Enterprise + Friendly Team	</h2>
                             <p className=' opacity07 text_white font_md ff_Gilroy400 pb-4'>Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service. Websites and,online shops development, maintenance and customization is what we do best.</p>
                             <div className='d-sm-flex align-items-center'>
-                                <Link className='ff_Gilroy400   font_md text_white me_34 common_btn d-inline-block'>Contact Us</Link>
+                                <Link className='ff_Gilroy400   font_md text_white me_34 common_btn d-inline-block'>Get Started</Link>
                                 <div className='d-flex align-items-center mt-4 mt-sm-0'>
                                     <PlayButtonIcon />
                                     <p className='opacity07 text-white font_md ff_Gilroy400 mb-0 ps-3'>What is Vipe? (1min)</p>

@@ -140,7 +140,7 @@
 @media (min-width: 575.98px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 14px;
+        --font-xs: 13px;
         --font-md: 15px;
         --font-lg: 18px;
         --font-xl: 24px;
@@ -153,7 +153,7 @@
 @media (min-width: 767.98px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 14px;
+        --font-xs: 13px;
         --font-md: 15px;
         --font-lg: 22px;
         --font-xl: 28px;
@@ -166,12 +166,12 @@
 @media (min-width: 991.98px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 14px;
+        --font-xs: 13px;
         --font-md: 16px;
         --font-lg: 22px;
         --font-xl: 32px;
         --font-2xl: 38px;
-        --font-3xl: 44px;
+        --font-3xl: 42px;
         --font-4xl: 52px;
     }
 }
@@ -179,12 +179,12 @@
 @media (min-width: 1200px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 14px;
+        --font-xs: 13px;
         --font-md: 16px;
         --font-lg: 24px;
         --font-xl: 36px;
         --font-2xl: 40px;
-        --font-3xl: 48px;
+        --font-3xl: 46px;
         --font-4xl: 62px;
     }
 }
@@ -192,6 +192,7 @@
 @media (min-width: 1400px){
     :root {
         /* FONT SIZE */
+        --font-xs: 13px;
         --font-4xl: 72px;
     }
 }
@@ -214,3 +215,7 @@
 }
 .opacity07{
     opacity: 0.7;}
+.opacity03{
+    opacity: 0.3;}
+.opacity08{
+    opacity: 0.8;}

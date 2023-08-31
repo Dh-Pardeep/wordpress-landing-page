@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Preloader_img from '../../assets/image/webp/AIPhoto.webp'
+import Preloader_img from '../../assets/image/webp/SuccessGuides.webp'
 function LoaderHome() {
   const [loder, setloader] = useState(true);
   useEffect(() => {
@@ -23,7 +23,7 @@ function LoaderHome() {
         >
           <div className="d-flex justify-content-center align-items-center flex-column text-center">
             <div className="loader position-relative">
-             <img className="w-25 Preloader_img animation_preloader" src={Preloader_img} alt="" />
+             <img className="w-100 Preloader_img animation_preloader" src={Preloader_img} alt="" />
              <div className=' PreloaderShadow position-absolute '></div>
             </div>
           </div>

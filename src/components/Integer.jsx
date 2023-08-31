@@ -6,7 +6,7 @@ const Integer = () => {
     return (
         <div>
             <Container>
-                <h2 className='ff_Konexy text_black fw-normal pt-lg-5 mt-5 pb-4'>Integer et nisl non</h2>
+                <h2 className='ff_Konexy text_black fw-normal font_3xl pt-lg-5 mt-5 pb-4'>Integer et nisl non</h2>
                 <Row className='justify-content-center pt-4 pb-5'>
                     <Col md={6} lg={4}>
                         <div className="Integer_box c_pointer ">

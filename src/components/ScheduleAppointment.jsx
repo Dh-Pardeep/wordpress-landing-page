@@ -7,10 +7,10 @@ const ScheduleAppointment = () => {
     return (
         <div >
             <Container>
-                <Row className='align-items-center ScheduleAppointment_box'>
+                <Row className='align-items-center  ScheduleAppointment_box'>
                     <Col lg={4}>
                         <h2 className='ff_Konexy text_white fw-normal font_xl mb-4 mb-md-5' >Not Sure which service you need yet?	</h2>
-                        <Link className='ff_Gilroy400 d-inline-block  font_md text_white me-4 common_btn mb-4 mb-lg-0'>Schedule An Appointment</Link>
+                        <Link className='ff_Gilroy400 d-inline-block  font_md text_white me-4 common_btn mb-4 '>Schedule An Appointment</Link>
                     </Col>
                     <Col md={6} lg={4}>
                         <ul className=' ps-0'>

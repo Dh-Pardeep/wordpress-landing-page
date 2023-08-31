@@ -1,51 +1,158 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { Facebook, Telegram, Twitter } from './Icons'
+import { SearchIconTwo, RightArrow, MobileIcon, EmailIcon, HomeIcon, Github, Linkden, Twitter, Facebook, Instagram, Wikipidia } from './Icons'
 import { Link } from 'react-router-dom'
-import FooterMoon from '../../assets/image/webp/footer_moon.webp'
+
 const MyFooter = () => {
     return (
-        <>
-            <footer className='position-relative ' id='About'>
-                <img className='position-absolute FooterMoon' src={FooterMoon} alt="FooterMoon" />
-                <Container className='mt-lg-5 pt-xl-4'>
-                    <Row className=' align-align-items-baseline mt-sm-3 mt-md-5 pt-lg-5 '>
-                        <Col md={5} lg={5} xl={6} className='pt-5' data-aos-delay="500" data-aos="fade-right">
-                            <p className='ff_Recharge text_white opacity_7 font_xs fw-bold footerpara'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
-                            <div className='d-flex'>
-                                <Facebook />
-                                <div className='px-3'>
-                                    <Twitter />
+        <div className='bg-black'>
+            <Container>
+                <Row className='justify-content-end'>
+                    <Col lg={4}>
+                        <div className='py-5 mt-4'>
+                            <div className='Search_input d-flex justify-content-between mt-5'>
+                                <input type="text" className='search_input_text' placeholder='Search here....' />
+                                <SearchIconTwo />
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm={6} lg={4} xl={3} >
+                        <ul className='ps-0 mb-0'>
+                            <li className='text_white font_md ff_Gilroy400 opacity07 '>Services</li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>WordPress Development</p>
                                 </div>
-                                <Telegram />
-                            </div>
-                        </Col>
-                        <Col md={7} lg={7} xl={5} data-aos-delay="500" data-aos="fade-left">
-                            <div className='d-flex  align-align-items-baseline pt-5 pt-md-0 justify-content-lg-between justify-content-between justify-content-md-start ps-md-5 ms-md-5'>
-                                <ul className='ps-0 '>
-                                    <li className='ff_Recharge fw-bold font_md text_white'>Quick links</li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Home</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Features</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Marketplace</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Tokens</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>NexChat</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>About</Link></li>
-                                </ul>
-                                <ul className='ps-5'>
-                                    <li className='ff_Recharge fw-bold font_md text_white'>Information's</li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Contact</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Phone</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>terms</Link></li>
-                                    <li><Link className='mt_20 d-inline-block ff_Recharge fw-bold font_xs position-relative Nav_Btn_hover text_white opacity_7'>Privacy</Link></li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
-                    <div className='Footer_border'></div>
-                    <p className='ff_Recharge fw-bold font_xs text_white opacity_7 text-center pb-4 mb-0'>@Copyright.nexai</p>
-                </Container>
-            </footer>
-        </>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>WooCommerce Development</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>WordPress Maintenance</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>Speed Optimization</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>Dedicated WordPress Developer</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>Headless WordPress Development</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>White Label Development</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </Col>
+                    <Col sm={6} lg={4} xl={3} >
+                        <ul className='ps-0 mb-0 pt-4 pt-sm-0'>
+                            <li className='text_white font_md ff_Gilroy400 opacity07'>Services</li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>WordPress Hosting</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>PSD, Figma to WordPress Conversion</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>Custom WordPress Theme</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>Custom WordPress Plugins</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>CMS to WordPress</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className=' d-flex mt-2 pt-1 align-items-end'>
+                                    <RightArrow />
+                                    <p className='text_white font_xs ff_Gilroy400 opacity07 c_pointer mb-0 ps_10'>WordPress Malware Removal</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </Col>
+                    <Col sm={6} lg={4} xl={3}>
+                        <ul className='ps-0 mb-0 pt-4 pt-lg-0'>
+                            <li className='text_white font_md ff_Gilroy400 opacity07 pb-3'>Latest Articles</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer '>7 WordPress Plugins to Create an Effective Newsletter 03.01.2022</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer  mt-3 pt-1'>What’s the Perfect Blog Post Length for Your WordPress Site’s SEO?
+                                02.01.2022</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer  mt-3 pt-1'>5 Reasons the Future of WordPress Is Headless 01.01.2022</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer  mt-3 pt-1'>Viptor Says: Vipe Studio’s WordPress Developers Wrap Up the Amazingly Successful 2021 30.12.2021</li>
+                        </ul>
+                    </Col>
+                    <Col sm={6} lg={4} xl={3}>
+                        <ul className='ps-0 mb-0 pt-4 pt-xl-0'>
+                            <li className='text_white font_md ff_Gilroy400 opacity07 pb-3'>Contact</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer '>
+                                <MobileIcon /> EU: +359 988 993 128</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer  mt-3 pt-1'>  <MobileIcon /> US: +1 (1 888) 266-6917
+                                02.01.2022</li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer  mt-3 pt-1'><EmailIcon /> office@vipestudio.com
+                            </li>
+                            <li className='text_white font_xs ff_Gilroy400 opacity07 c_pointer  mt-3 pt-1'><HomeIcon />14 Srebarna, Sofia 1407, Bulgaria</li>
+                        </ul>
+                    </Col>
+                </Row>
+            </Container>
+            <div className='footer_border mt-5'></div>
+            <Container>
+                <Row className='align-items-center justify-content-between py-4'>
+                    <Col md={6}>
+                        <p className='text_white font_xs ff_Gilroy400 opacity07  pt-2 mb-0 mb-2'>© Vipe Studio 2016-2022</p>
+                        <Link className='text_white font_xs ff_Gilroy400 opacity07  '>Privacy</Link>
+                        <Link className='text_white font_xs ff_Gilroy400 opacity07 ms-3  footer_down_link position-relative'>Careers</Link>
+                        <Link className='text_white font_xs ff_Gilroy400 opacity07 ms-3  footer_down_link position-relative'>Media</Link>
+                        <Link className='text_white font_xs ff_Gilroy400 opacity07 ms-3  footer_down_link position-relative'>Client Area</Link>
+                    </Col>
+                    <Col md={6} className='d-flex justify-content-start justify-content-md-end'>
+                        <div className='d-flex gap_17 mt-4 mt-md-0'>
+                            <Github />
+                            <Linkden />
+                            <Twitter />
+                            <Facebook />
+                            <Instagram />
+                            <Wikipidia />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     )
 }
 
