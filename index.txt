@@ -1,0 +1,14 @@
+ {/* <div className='d-flex flex-column gap_20 align-items-center d-lg-none'>
+                <Link onClick={() => setShowNavbar(true)} className='ff_Gilroy400  font_md text_white '>1 888 266-6917 (eu?)</Link>
+                <Link onClick={() => setShowNavbar(true)} className='ff_Gilroy400  font_md text_white  common_btn'>Contact Us</Link>
+                <Link onClick={() => setShowNavbar(true)} className='ff_Gilroy400  font_md text_white'> <Dropdown>
+                  <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    About
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown></Link>
+              </div> */}
