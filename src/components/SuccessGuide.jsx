@@ -133,7 +133,7 @@ const SuccessGuide = () => {
                         <p className='text_white ff_Gilroy600 font_lg mb-0 SuccessGuide_para_1 text-center text-lg-start'>read our study about Speed and Performance in WordPress?</p>
                     </div>
                     <div>
-                        <Link className='ff_inter fw-semibold font_md text_purple  common_btn d-inline-block common_btn_two mt-4'>Check It Out</Link>
+                        <Link className='ff_inter fw-semibold font_md text_purple  common_btn d-inline-block common_btn_two mt-4 mt-lg-0'>Check It Out</Link>
                     </div>
                 </div>
             </Container>
