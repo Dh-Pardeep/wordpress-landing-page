@@ -58,48 +58,48 @@ const LongTerm = () => {
         ]
     };
     return (
-        <div className='Featured_bg'>
+        <div className='Featured_bg position-relative z_20'>
             <Container>
-                <div className='pb-4'>
+                <div className='pb-4'data-aos="zoom-in">
                     <h2 className='ff_Konexy text_black fw-normal font_3xl Long_term_h2 pt-5 pb-4'>Long Term WordPress Partner</h2>
                     <p className='Long_term_para opacity08 text_black ff_Gilroy400 font_md'>Our motto is the long-term partnership – we will not only develop your perfect website, but will be behind you through the whole process. They already trusted us:</p>
                     <div className='Slider_1 py-4'>
                         <Slider {...settings}>
                             <div>
-                                <img src={Propy} alt="yadoo image" />
+                                <img className='c_pointer' src={Propy} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Ciela} alt="yadoo image" />
+                                <img className='c_pointer' src={Ciela} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Revuele} alt="yadoo image" />
+                                <img className='c_pointer' src={Revuele} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Ciela} alt="yadoo image" />
+                                <img className='c_pointer' src={Ciela} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Spark} alt="yadoo image" />
+                                <img className='c_pointer' src={Spark} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Ciela} alt="yadoo image" />
+                                <img className='c_pointer' src={Ciela} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Propy} alt="yadoo image" />
+                                <img className='c_pointer' src={Propy} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Ciela} alt="yadoo image" />
+                                <img className='c_pointer' src={Ciela} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Revuele} alt="yadoo image" />
+                                <img className='c_pointer' src={Revuele} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Ciela} alt="yadoo image" />
+                                <img className='c_pointer' src={Ciela} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Spark} alt="yadoo image" />
+                                <img className='c_pointer' src={Spark} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={Ciela} alt="yadoo image" />
+                                <img className='c_pointer' src={Ciela} alt="yadoo image" />
                             </div>
                         </Slider>
                     </div>

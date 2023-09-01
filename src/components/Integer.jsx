@@ -9,7 +9,7 @@ const Integer = () => {
                 <h2 className='ff_Konexy text_black fw-normal font_3xl pt-lg-5 mt-5 pb-4'>Integer et nisl non</h2>
                 <Row className='justify-content-center pt-4 pb-5'>
                     <Col md={6} lg={4}>
-                        <div className="Integer_box c_pointer ">
+                        <div className="Integer_box c_pointer " data-aos="flip-left">
                             <Enterprise />
                             <div className='Integer_center_line'></div>
                             <div>
@@ -20,7 +20,7 @@ const Integer = () => {
                         </div>
                     </Col>
                     <Col md={6} lg={4}>
-                        <div className="Integer_box c_pointer mt-4 mt-sm-0">
+                        <div className="Integer_box c_pointer mt-4 mt-sm-0" data-aos="flip-left">
                             <SmallDevelopment />
                             <div className='Integer_center_line'></div>
                             <div>
@@ -31,7 +31,7 @@ const Integer = () => {
                         </div>
                     </Col>
                     <Col md={6} lg={4}>
-                        <div className="Integer_box c_pointer mt-4 mt-lg-0">
+                        <div className="Integer_box c_pointer mt-4 mt-lg-0" data-aos="flip-left">
                             <SupportMaintenance />
                             <div className='Integer_center_line'></div>
                             <div>

@@ -60,45 +60,45 @@ const Featured = () => {
     return (
         <div className='Featured_bg'>
             <Container>
-                <div className='pb-4'>
+                <div className='pb-4 ' data-aos="zoom-in">
                     <h2 className='ff_Konexy text_black fw-normal font_3xl pt-5 pb-4'>Featured on</h2>
                     <div className='Slider_1 py-4'>
                         <Slider {...settings}>
                             <div>
-                                <img src={YahooNews} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooNews} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooFinance} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooFinance} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooNews} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooNews} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={TrandingTopics} alt="yadoo image" />
+                                <img className='c_pointer' src={TrandingTopics} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooLife} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooLife} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={TrandingTopics} alt="yadoo image" />
+                                <img className='c_pointer' src={TrandingTopics} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooNews} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooNews} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooFinance} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooFinance} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooNews} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooNews} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={TrandingTopics} alt="yadoo image" />
+                                <img className='c_pointer' src={TrandingTopics} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={YahooLife} alt="yadoo image" />
+                                <img className='c_pointer' src={YahooLife} alt="yadoo image" />
                             </div>
                             <div>
-                                <img src={TrandingTopics} alt="yadoo image" />
+                                <img className='c_pointer' src={TrandingTopics} alt="yadoo image" />
                             </div>
                         </Slider>
                     </div>

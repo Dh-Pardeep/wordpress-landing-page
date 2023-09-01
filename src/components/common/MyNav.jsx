@@ -15,7 +15,7 @@ const MyNav = () => {
 
   return (
     <>
-      <section>
+      <section className='position-fixed w-100 top-0 bg-black z_1000'>
         <Container >
           <nav className='d-flex justify-content-between align-items-center py_30'>
             <div></div>
@@ -34,7 +34,7 @@ const MyNav = () => {
                   Services
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item onClick={() => setShowNavbar(true)} className='ff_Gilroy400   font_md' href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item onClick={() => setShowNavbar(true)} className='ff_Gilroy400   font_md' href="#Services">Services</Dropdown.Item>
                   <Dropdown.Item onClick={() => setShowNavbar(true)} className='ff_Gilroy400   font_md' href="#/action-2">WordPress Solution</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown></Link></li>
@@ -82,7 +82,7 @@ const MyNav = () => {
               </Dropdown></Link></li>
             </ul>
             <span title="open"
-              className="d-inline d-lg-none fw-bold text-white"
+              className="d-inline d-lg-none fw-bold text-white c_pointer"
               onClick={() => setShowNavbar(false)}>
               <RxHamburgerMenu fontSize={40} /></span>
           </nav>

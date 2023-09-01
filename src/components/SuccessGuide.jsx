@@ -9,14 +9,14 @@ const SuccessGuide = () => {
     return (
         <div>
             <Container>
-                <Row className='my-5 pt-5'>
-                    <Col lg={4} className='pt-lg-5'>
+                <Row className='my-lg-5 pt-5'>
+                    <Col lg={4} className='pt-lg-5'data-aos="fade-right">
                         <div>
                             <img className='w-100 mt-lg-5 pe-lg-3' src={SuccessGuideImage} alt="SuccessGuideImage" />
                         </div>
                     </Col>
-                    <Col lg={8} className='pt-5'>
-                        <p className='text_gray font_md ff_Gilroy400 mb-0 mt-5'>HAVE YOU SEEN OUR MASCOT?</p>
+                    <Col lg={8} className='pt-5'data-aos="fade-left">
+                        <p className='text_gray font_md ff_Gilroy400 mb-0 mt-3 mt-lg-5 '>HAVE YOU SEEN OUR MASCOT?</p>
                         <h2 className='ff_Konexy text_black fw-normal font_3xl'>Success Guides
                         </h2>
                         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -35,7 +35,7 @@ const SuccessGuide = () => {
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
-                                <Tab.Pane eventKey="first">
+                                <Tab.Pane eventKey="first" >
                                     <div className='d-flex flex-wrap justify-content-center justify-content-lg-between mt-4 pt-2'>
                                         <div className="Sitdiam_box c_pointer">
                                             <img className='w-100' src={Sitdiam_image} alt="" />
@@ -57,7 +57,7 @@ const SuccessGuide = () => {
                                         </div>
                                     </div>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="second">
+                                <Tab.Pane eventKey="second" >
                                     <div className='d-flex flex-wrap justify-content-center justify-content-lg-between mt-4 pt-2'>
                                         <div className="Sitdiam_box c_pointer">
                                             <img className='w-100' src={Sitdiam_image} alt="" />
@@ -79,7 +79,7 @@ const SuccessGuide = () => {
                                         </div>
                                     </div>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="three">
+                                <Tab.Pane eventKey="three" >
                                     <div className='d-flex flex-wrap justify-content-center justify-content-lg-between mt-4 pt-2'>
                                         <div className="Sitdiam_box c_pointer">
                                             <img className='w-100' src={Sitdiam_image} alt="" />
@@ -101,7 +101,7 @@ const SuccessGuide = () => {
                                         </div>
                                     </div>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="four">
+                                <Tab.Pane eventKey="four" >
                                     <div className='d-flex flex-wrap justify-content-center justify-content-lg-between mt-4 pt-2'>
                                         <div className="Sitdiam_box c_pointer">
                                             <img className='w-100' src={Sitdiam_image} alt="" />
@@ -127,7 +127,7 @@ const SuccessGuide = () => {
                         </Tab.Container>
                     </Col>
                 </Row>
-                <div className="haveyou_box position-relative d-flex flex-column flex-lg-row align-items-center justify-content-between">
+                <div className="haveyou_box position-relative d-flex flex-column flex-lg-row align-items-center justify-content-between" data-aos="zoom-in">
                     <div> 
                         <h2 className='ff_Konexy fw-normal text_white fw-normal font_3xl text-center text-lg-start'>Have you</h2>
                         <p className='text_white ff_Gilroy600 font_lg mb-0 SuccessGuide_para_1 text-center text-lg-start'>read our study about Speed and Performance in WordPress?</p>

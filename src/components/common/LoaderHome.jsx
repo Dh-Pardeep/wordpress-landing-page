@@ -23,7 +23,7 @@ function LoaderHome() {
         >
           <div className="d-flex justify-content-center align-items-center flex-column text-center">
             <div className="loader position-relative">
-             <img className="w-100 Preloader_img animation_preloader" src={Preloader_img} alt="" />
+             <img className="w-75 Preloader_img animation_preloader" src={Preloader_img} alt="" />
              <div className=' PreloaderShadow position-absolute '></div>
             </div>
           </div>

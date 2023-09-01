@@ -14,9 +14,18 @@ import SuccessGuide from './components/SuccessGuide';
 import MyFooter from './components/common/MyFooter';
 import BackToTop from './components/common/BackToTop';
 import LoaderHome from './components/common/LoaderHome';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: true,
+    });
+  }, [])
   return (
-   <div>
+   <div className='overflow-hidden'>
     <BackToTop/>
     <LoaderHome/>
     <HeroSection/>   

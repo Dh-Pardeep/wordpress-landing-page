@@ -7,10 +7,10 @@ const AgileWordPress = () => {
         <div>
             <Container className='py-xl-4'>
                 <Row className='align-items-center py-5'>
-                    <Col lg={6}>
+                    <Col lg={6}data-aos="fade-right">
                         <img className='w-100 pe-xl-5' src={AgileWordPressImage} alt="AgileWordPressImage" />
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6}data-aos="fade-left">
                         <h2 className='ff_Konexy text_black fw-normal font_3xl mb-2 mt-5'><span className='text_purple'>Agile WordPress
                         </span> Development Project management
                         </h2>
