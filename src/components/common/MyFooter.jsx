@@ -132,16 +132,18 @@ const MyFooter = () => {
             </Container>
             <div className='footer_border mt-5'></div>
             <Container>
-                <Row className='align-items-center justify-content-between py-4'>
+                <Row className='align-items-center justify-content-between py-4 '>
                     <Col md={6}>
-                        <p className='text_white font_xs ff_Gilroy400 opacity07  pt-2 mb-0 mb-2'>© Vipe Studio 2016-2022</p>
+                      <div className='text-center text-md-start'>
+                      <p className='text_white font_xs ff_Gilroy400 opacity07  pt-2 mb-0 mb-2'>© Vipe Studio 2016-2022</p>
                         <Link className='text_white font_xs ff_Gilroy400 opacity07  '>Privacy</Link>
                         <Link className='text_white font_xs ff_Gilroy400 opacity07 ms-3  footer_down_link position-relative'>Careers</Link>
                         <Link className='text_white font_xs ff_Gilroy400 opacity07 ms-3  footer_down_link position-relative'>Media</Link>
                         <Link className='text_white font_xs ff_Gilroy400 opacity07 ms-3  footer_down_link position-relative'>Client Area</Link>
+                      </div>
                     </Col>
-                    <Col md={6}className='d-flex justify-content-start justify-content-md-end'>
-                        <div className='d-flex gap_17 mt-4 mt-md-0'>
+                    <Col md={6}className='d-flex justify-content-center justify-content-md-end order-first order-md-last'>
+                        <div className='d-flex gap_17 mb-3 mb-md-0'>
                             <Github />
                             <Linkden />
                             <Twitter />

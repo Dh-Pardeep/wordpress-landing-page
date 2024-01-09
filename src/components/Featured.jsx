@@ -58,7 +58,7 @@ const Featured = () => {
         ]
     };
     return (
-        <div className='Featured_bg'>
+        <div className='Featured_bg' id='Featured'>
             <Container>
                 <div className='pb-4 ' data-aos="zoom-in">
                     <h2 className='ff_Konexy text_black fw-normal font_3xl pt-5 pb-4'>Featured on</h2>

@@ -33,7 +33,7 @@ const HeroSection = () => {
                         <div className='w-100'>
                             <div className=' herofullimg mt-4 mt-lg-0'>
                                 <img className=' HeroSectionImg w-100' src={HeroSectionImg} alt="HeroSectionImg" />
-                                <div className="herobox  d-flex flex-column align-items-start">
+                                <div className="herobox c_pointer d-flex flex-column align-items-start">
                                     <img src={Trustpilot} alt="Trustpilot" />
                                     <img className='py-2' src={FiveStar} alt="FiveStar" />
                                     <h2 className='ff_Jost font_md fw-normal text_white'>Rated 5.0 Excellent</h2>

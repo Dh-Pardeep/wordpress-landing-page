@@ -11,7 +11,7 @@ const MyNav = () => {
     document.body.classList.remove('overflow-hidden');
   } else {
     document.body.classList.add('overflow-hidden')
-  }
+  }y
 
   return (
     <>
